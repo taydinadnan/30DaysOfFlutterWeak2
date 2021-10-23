@@ -16,12 +16,12 @@ import 'product.dart';
 
 class ProductsRepository {
   static List<Product> loadProducts(Category category) {
-    const allProducts = <Product> [
+    const allProducts = <Product>[
       Product(
         category: Category.accessories,
         id: 0,
         isFeatured: true,
-        name: 'Vagabond sack',
+        name: 'Vagabond\n sack',
         price: 120,
       ),
       Product(
